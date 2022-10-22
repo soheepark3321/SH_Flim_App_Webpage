@@ -1,26 +1,183 @@
 <!DOCTYPE html>
-<html lang="kor">
+<html lang="kor" dir="ltr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SH FLIM APP</title>
 
-    <link rel="stylesheet" href="css/animation.css">
+    <title>SH FILM</title>
+
     <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/animation.css">
     <link rel="stylesheet" href="css/mainpage.css">
 
+    <!-- search창 돋보기 아이콘 -->
+    <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+
+    <meta name="author" content="soheepark">
+    <meta name="keywords" content="SH film app">
+    <meta name="desscription" content="SH film app introduction page">
+
+    <!-- 브라우저 창 로고 -->
+    <link rel="title icon" href="img/Logo/circle_logo.png">
+    <link rel="apple-touch-icon-precomposed" href="img/Logo/circle_logo.png">
+
+    <!-- 폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Song+Myung&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
-    <div class="wrapper">
+    <!-- 상단 메뉴바 -->
+    <div class="wrap">
         <div class="header">
+            <!-- 검색창 -->
             <div class="search_area">
                 <form>
                     <input class="search_input" type="search" placeholder="search">
+                    <span id="search_icon">
+                        <i class="fa fa-search"></i>
+                    </span>
                 </form>
             </div>
+            <!-- 메뉴바 -->
+            <ul class="menu">
+                <li><a href="#1" target="_blank" id="menu_txt">SERVICE</a></li>
+                <li><a href="#2" target="_blank" id="menu_txt">BUSINESS</a></li>
+                <li><a href="#3" target="_blank" id="menu_txt">CAREER</a></li>
+                <li><a href="#4" target="_blank" id="menu_txt">NEWS</a></li>
+                <li><a href="#5" target="_blank" id="menu_txt">CONTACT</a></li>
+            </ul>
         </div>
+        <!-- 메인 로고 & 서브 타이틀 -->
+        <div class="intro_txt">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/Logo/circle_logo.png" alt="txt_logo" class="main_logo">
+                </a>
+            </div>
+            <div class="fadeIn" id="sub_txt">Shine pHoto Film</div>
+        </div>
+
+        <!-- 메인 포토 -->
+        <div class="main_photo">
+            <img src="img/church.jpg" alt="main_img" class="film_img">
+        </div>
+
+        <!-- 어플 소개 -->
+        <div class="">
+            <h1>SH FILM.</h1>
+            <p>'SH film은 2022년 10월 서비스 이후 어쩌구<br>
+                주절주절주절<br>
+                얼레벌레</p>
+            <a href="#"> APP 다운로드 </a>
+            <div>
+                (sh film img)
+            </div>
+        </div>
+
+        <!-- 메인 소개 1 -->
+        <div class="">
+            <h1> 감성을 담다. </h1>
+            <div>
+                <div>img</div>
+                <div>내용</div>
+            </div>
+        </div>
+
+        <!-- 메인 소개 2 -->
+        <div class="">
+            <h1>화질에 놀라다.</h1>
+            <div>
+                <div>img</div>
+                <div>내용</div>
+            </div>
+        </div>
+
+        <!-- 메인 소개 3 -->
+        <div class="">
+            <h1>편리함에 반하다.</h1>
+            <div>
+                <div>img</div>
+                <div>내용</div>
+            </div>
+        </div>
+
+        <!-- career -->
+        <div class="">
+            <ul>
+                <li>
+                    <div>
+                        <h1>CAREER</h1>
+                    </div>
+                    <div>
+                        지원해줘라 쏼라쏼라 (background-img)
+                    </div>
+                    <div class="">
+                        지원하기(button)
+                    </div>
+                </li>
+                <li>(해당 영역 빈칸)</li>
+            </ul>
+        </div>
+
+
+        <!-- news -->
+        <div class="">
+            <h1>NEWS</h1>
+            <ul>
+                <li>
+                    <div class="">
+                        news title 1
+                    </div>
+                    <div class="">
+                        news content 1
+                    </div>
+                </li>
+                <li>
+                    <div class="">
+                        news title 2
+                    </div>
+                    <div class="">
+                        news content 2
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- contact -->
+        <div class="">
+            <h1>CONTACT</h1>
+            <ul>
+                <li>
+                    <div>logo</div>
+                </li>
+                <li>
+                    <div>Addr.(주소는 제주도)<br>
+                        tel.<br>
+                        fax.<br>
+                        SH FILM에게 연락하기(button)</div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- footer -->
+        <footer>
+            <div>
+                <ul>
+                    <li>
+                        <div>Copyright c 2022. SH FILM. All Rights Reserved.</div>
+                    </li>
+                    <li>개인정보 처리 방침(button / underline)</li>
+                    <li>기업윤리 센터</li>
+                    <li>공고</li>
+                </ul>
+            </div>
+        </footer>
     </div>
-    
 </body>
+
 </html>

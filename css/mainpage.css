@@ -1,22 +1,80 @@
-.wrapper{
-    display: grid;
-}
 
-body{
-    width: 1080px;
+body {
+   /* width: 1080px; */
     padding: 0px;
-    margin: 0px;
+    margin: 0px 30px;
 }
 
-.header{
-    background: skyblue;
-    height: 50px;
+/* 메뉴 상단바 영역 */
+.header {
+    height: 70px;
 }
 
-.search_input{
-    height: 20px;
+.search_input {
+    height: 30px;
     background: none;
     border: 0px;
     border-bottom: 1px solid darkgray;
-    margin: 15px 20px;
+    margin: 30px 20px;
+}
+
+#search_icon{
+    margin: -40px;
+    padding: 0px;
+    color: darkgray;
+    cursor: pointer;
+}
+
+.menu{
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    line-height: 86px;
+}
+
+.header > ul{
+    margin: -50px 10px;
+    padding: 0px;
+    height: 30px;
+    line-height: 25px;
+    list-style: none;
+}
+
+.menu > li> a{
+    text-decoration: none;
+    color: gray;
+}
+
+#menu_txt{
+    margin: 0px;
+    padding: 0px 7px;
+}
+
+/* 로고 영역 */
+.main_logo{
+    display: block;
+    max-width: 30%;
+    height: auto;
+    margin: 40px auto;
+}
+
+#sub_txt{
+    margin-top: -8px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 10px;
+    word-spacing: 7px;
+}
+
+.main_photo{
+    display: block;
+}
+
+.film_img{
+    display: block;
+    max-width: 80%;
+    height: auto;
+    margin: 30px auto;
+    border-radius: 25px;
 }
