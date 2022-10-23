@@ -114,3 +114,32 @@ body {
     border: 1px solid;
     border-radius: 5px;
 }
+
+/* middle banner */
+.middle_banner{
+    margin: 40px -50px;
+    display: block;
+}
+
+.middle_banner > img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.app_img{
+    display: flex;
+    margin: 30px auto;
+}
+
+#ap_white_logo,
+#app_white_circle_logo,
+#app_sky,
+#app_rainbow_black,
+#app_black_logo,
+#app_circle_black{
+    display: block;
+    max-width: 15%;
+    height: auto;
+    margin: 0px 7px;
+}

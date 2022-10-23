@@ -1,4 +1,4 @@
-/*intro_sub_txt*/
+/*mainpage : intro_sub_txt*/
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -23,4 +23,36 @@
     animation: fadeIn 2s;
     -webkit-animation: fadeIn 2s;
 
+}
+
+/* mainpage : 어플 소개 */
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translate3d(-100%, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
+
+@-webkit-keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translate3d(-100%, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
+
+.intro_app {
+    position: relative;
+    animation: fadeInLeft 3s;
+    -webkit-animation: fadeInLeft 3s
 }
