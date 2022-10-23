@@ -14,7 +14,7 @@ body {
     height: 30px;
     background: none;
     border: 0px;
-    border-bottom: 1px solid darkgray;
+    border-bottom: 1px solid;
     margin: 30px 20px;
 }
 
@@ -42,7 +42,6 @@ body {
 
 .menu > li> a{
     text-decoration: none;
-    color: gray;
 }
 
 #menu_txt{
@@ -69,12 +68,49 @@ body {
 
 .main_photo{
     display: block;
+    margin-bottom: 10px;
 }
 
 .film_img{
     display: block;
     max-width: 80%;
     height: auto;
-    margin: 30px auto;
+    margin: 0px auto;
     border-radius: 25px;
+}
+
+/* 어플 소개 영역 */
+.intro_app{
+    display: inline-block;
+    background-color: white;
+    
+    margin-top: 50px;
+}
+
+.intro_app > h1{
+    margin: 0px;
+    font-size: 60px;
+    letter-spacing: 8px;
+    text-decoration: 2px overline;
+}
+
+.intro_app > h3{
+    margin: 0px;
+    margin-bottom: 25px;
+    letter-spacing: 15px;
+}
+
+.intro_app > p{
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.intro_app > a{
+    padding: 8px;
+    font-size: 20px;
+    color: gray;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 5px;
 }
