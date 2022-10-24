@@ -130,6 +130,7 @@ body {
 .app_img{
     display: flex;
     margin: 30px auto;
+    text-align: center;
 }
 
 #ap_white_logo,
