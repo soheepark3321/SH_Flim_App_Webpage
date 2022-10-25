@@ -82,8 +82,6 @@ body {
 /* 어플 소개 영역 */
 .intro_app{
     display: inline-block;
-    background-color: white;
-    
     margin-top: 50px;
 }
 
@@ -143,4 +141,18 @@ body {
     max-width: 15%;
     height: auto;
     margin: 0px 7px;
+}
+
+/* 메인 소개 */
+.main_intro_sensitive > h1,
+.main_intro_function > h1,
+.main_intro_convenience > h1{
+    font-size: 60px;
+    letter-spacing: 8px;
+}
+
+.main_intro_function{
+   display: flex;
+    justify-content: flex-end;
+    margin: auto;
 }
