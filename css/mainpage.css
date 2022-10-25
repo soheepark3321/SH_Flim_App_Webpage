@@ -147,12 +147,30 @@ body {
 .main_intro_sensitive > h1,
 .main_intro_function > h1,
 .main_intro_convenience > h1{
+    margin-top: 0px;
+    margin-bottom: 30px;
     font-size: 60px;
     letter-spacing: 8px;
 }
 
+.main_intro_sensitive{
+    margin: 50px auto;
+}
+
 .main_intro_function{
-   display: flex;
-    justify-content: flex-end;
-    margin: auto;
+   display: block;
+   max-width: 100%;
+   margin-right: -50px;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   text-align: right;
+}
+
+.main_intro_convenience{
+    display: block;
+    margin: 50px auto;
+}
+
+.main_intro_small_txt{
+    font-size: 30px;
 }

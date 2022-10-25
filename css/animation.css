@@ -56,3 +56,41 @@
     animation: fadeInLeft 3s;
     -webkit-animation: fadeInLeft 3s
 }
+
+/* mainpage : app_main_intro */
+.main_intro_sensitive,
+.main_intro_convenience{
+    position: relative;
+    animation: fadeInLeft 3s;
+    -webkit-animation: fadeInLeft 3s
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translate3d(100%, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
+
+@-webkit-keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translate3d(100%, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
+
+.main_intro_function{
+    position: relative;
+    animation: fadeInRight 3s;
+    -webkit-animation: fadeInRight 3s
+}
