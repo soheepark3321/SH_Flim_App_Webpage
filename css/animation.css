@@ -58,8 +58,8 @@
 }
 
 /* mainpage : app_main_intro */
-.main_intro_sensitive,
-.main_intro_convenience{
+.main_intro_sensitive/*,
+.main_intro_convenience*/{
     position: relative;
     animation: fadeInLeft 3s;
     -webkit-animation: fadeInLeft 3s
