@@ -1,4 +1,4 @@
-body/*:not(.career)*/{
+body:not(.career){
     font-family: 'Song Myung', serif;
     color: gray;
 }
@@ -8,3 +8,4 @@ body{
      padding: 0px;
      margin: 0px 30px;
  }
+
