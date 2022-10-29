@@ -120,8 +120,8 @@
 
 .middle_banner>img {
     display: block;
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    height: 25px;
 }
 
 .app_img {
@@ -178,6 +178,7 @@
 /* career */
 .career {
     display: inline-block;
+    width: 100%;
     height: 300px;
     background-image: url(../img/main_intro_function_back.png);
     background-size: cover;
@@ -207,14 +208,15 @@
 }
 
 .apply {
-    width: 150px;
-    height: auto;
-    font-size: 20px;
-    letter-spacing: 10px;
-    margin: 25px 50px;
+    float: left;
     text-align: center;
+    padding: 7px;
+    font-size: 20px;
+    letter-spacing: 7px;
+    margin: 25px 50px;
     border: 1px solid;
-    line-height: 45px;
+    border-radius: 7px;
+    /*line-height: 45px;*/
     cursor: pointer;
 }
 
@@ -285,35 +287,47 @@
 /* contact */
 .contact {
     display: block;
-    margin: 30px auto;
+    margin: 20px auto;
+    width: 100%;
+    height: auto;
 }
 
 .contact_contents {
     display: flex;
-    margin: 0px;
-    padding: 0px;
     list-style: none;
-    padding: 30px;
-    background-color: lightcoral;
+    padding: 30px 30px 30px 0px;
+    margin: 0px;
+    align-items: center;
+}
 
+.contact_logo {
+    flex: 4;
+    height: 65px;
+    text-align: center;
+    width: 25%;
+    vertical-align: middle;
 }
 
 .contact_logo>img {
     width: 90px;
-    height: auto;
-    /*vertical-align: middle;*/
-}
-
-.contact_logo {
-    display: table-cell;
-    /*line-height: 100px;
-    text-align: center;
-    width: 25%;
-    height: auto;*/
-    background-color: yellow;
+    height: 65px;
+    vertical-align: middle;
 }
 
 .contact_txt {
-    display: table-cell;
-    background-color: skyblue;
+    flex: 6;
+    vertical-align: middle;
+    border-left: 1px solid lightgray;
+    padding-left: 50px;
+}
+
+.contact_button{
+    float: left;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 7px;
+    margin-top: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
 }
